@@ -13,3 +13,8 @@ apt-get install -y nodejs
 
 # install rails latest
 gem install rails
+
+# link homedir to /vagrant
+rm -rf /home/ubuntu
+ln -s /vagrant /home/ubuntu
+
